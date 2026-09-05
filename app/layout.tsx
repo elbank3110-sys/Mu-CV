@@ -8,7 +8,7 @@ import Effects from "@/components/Effects";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import { profile, STUDIO_URL } from "@/lib/data";
 
-const SITE_URL = "https://black-mak-cv.vercel.app";
+const SITE_URL = "https://mu-cv.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
