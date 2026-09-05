@@ -68,7 +68,6 @@ const jsonLd = {
   worksFor: { "@type": "Organization", name: "BLACK-MAK®" },
   sameAs: [
     "https://www.behance.net/Muhmed-alaa-el-bank",
-    "https://www.fiverr.com/muhmedelbank",
     "https://www.instagram.com/muhamedalaaelbank/",
     "https://unsplash.com/@muhmedelbank",
     STUDIO_URL,
