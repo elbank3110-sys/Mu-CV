@@ -1,5 +1,13 @@
 # BLACK-MAK® — Online CV
 
+### ▶ View the live CV: **https://mu-cv.vercel.app**
+
+[![View Live CV](https://img.shields.io/badge/View_Live_CV-mu--cv.vercel.app-070708?style=for-the-badge&logo=vercel&logoColor=white)](https://mu-cv.vercel.app)
+&nbsp;
+[![Studio](https://img.shields.io/badge/The_Studio-black--mak--v4-c9a227?style=for-the-badge)](https://black-mak-v4.vercel.app/)
+
+---
+
 Premium bilingual (EN/AR) online résumé for **Muhamed Alaa (BLACK-MAK®)** — Senior Graphic &
 Brand Designer. Built to share the visual DNA of the studio at
 [black-mak-v4.vercel.app](https://black-mak-v4.vercel.app/) and to bridge seamlessly to it:
