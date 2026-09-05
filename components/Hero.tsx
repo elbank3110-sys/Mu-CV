@@ -34,7 +34,7 @@ export default function Hero() {
             <Reveal delay={0.12}>
               <p className="mt-3 text-[clamp(1.4rem,3.4vw,2.4rem)] font-bold leading-[1.05]">
                 {pick(hero.lead).split(" ").slice(0, -1).join(" ")}{" "}
-                <span className="stroke-text">{pick(hero.outline)}</span>
+                <span>{pick(hero.outline)}</span>
               </p>
             </Reveal>
 

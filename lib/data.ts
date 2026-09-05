@@ -316,10 +316,8 @@ export type Social = { label: string; href: string; handle: string };
 
 export const socials: Social[] = [
   { label: "Behance", href: "https://www.behance.net/Muhmed-alaa-el-bank", handle: "Muhmed-alaa-el-bank" },
-  { label: "Fiverr", href: "https://www.fiverr.com/muhmedelbank", handle: "muhmedelbank" },
   { label: "Instagram", href: "https://www.instagram.com/muhamedalaaelbank/", handle: "muhamedalaaelbank" },
   { label: "Unsplash", href: "https://unsplash.com/@muhmedelbank", handle: "muhmedelbank" },
-  { label: "Tumblr", href: "https://www.tumblr.com/one-point-one", handle: "one-point-one" },
   { label: "Facebook", href: "https://www.facebook.com/Ol.YaRaaaB/", handle: "Ol.YaRaaaB" },
 ];
 
