@@ -60,5 +60,12 @@ scripts/        optimize-assets.mjs
 
 Optimized for Vercel. Push to GitHub, import the repo in Vercel, and deploy — no env vars required.
 
+## License
+
+© 2026 Muhamed Alaa (BLACK-MAK®). **All rights reserved.** This project is
+published under a proprietary license — you may view the code and the live site,
+but reuse, redistribution, or use of the name, photos, and certificates requires
+written permission. See [LICENSE](./LICENSE).
+
 ---
 © 2026 BLACK-MAK®. Designed with intent. New Valley, Egypt.
