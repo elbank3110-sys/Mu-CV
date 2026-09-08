@@ -39,22 +39,10 @@ function TiltCard({ group, index }: { group: SkillGroup; index: number }) {
               {String(index + 1).padStart(2, "0")}
             </span>
           </div>
-          <ul className="space-y-4">
+          <ul className="space-y-3">
             {group.items.map((item, j) => (
               <li key={j}>
-                <div className="mb-2 flex items-center justify-between">
-                  <span className="text-[0.82rem] text-ink/90">{pick(item.name)}</span>
-                  <span className="mono text-[0.6rem] text-faint">{item.level}%</span>
-                </div>
-                <div className="h-[2px] w-full overflow-hidden bg-line">
-                  <motion.div
-                    className="h-full bg-ink"
-                    initial={{ width: 0 }}
-                    whileInView={{ width: `${item.level}%` }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 1.3, ease: [0.22, 1, 0.36, 1], delay: 0.15 + j * 0.08 }}
-                  />
-                </div>
+                <span className="text-[0.82rem] text-ink/90">{pick(item.name)}</span>
               </li>
             ))}
           </ul>

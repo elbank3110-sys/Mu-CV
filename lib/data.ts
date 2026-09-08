@@ -13,12 +13,12 @@ export const profile = {
   alias: "BLACK-MAK®",
   established: "2014",
   role: {
-    en: "Senior Graphic & Brand Designer",
-    ar: "مصمم جرافيك وهوية بصرية أول",
+    en: "Logo & Visual Identity Designer",
+    ar: "مصمم شعارات وهوية بصرية",
   },
   titles: {
-    en: ["Creative Director", "Brand Strategist", "AI-Augmented Design Specialist"],
-    ar: ["مدير إبداعي", "استراتيجي علامات تجارية", "متخصص تصميم معزز بالذكاء الاصطناعي"],
+    en: ["Creative Director", "Brand Strategist"],
+    ar: ["مدير إبداعي", "استراتيجي علامات تجارية"],
   },
   location: { en: "New Valley, Egypt", ar: "الوادي الجديد، مصر" },
   experienceYears: { en: "12+ years of experience", ar: "أكثر من ١٢ عامًا من الخبرة" },
@@ -32,20 +32,19 @@ export const profile = {
 export const hero = {
   kicker: { en: "BLACK-MAK® / CURRICULUM VITÆ — 2026", ar: "BLACK-MAK® / السيرة الذاتية — ٢٠٢٦" },
   lead: {
-    en: "I turn who a business is into a mark the world remembers.",
-    ar: "أُحوّل هوية الأعمال إلى علامةٍ يتذكّرها العالم.",
+    en: "I turn business meaning into identities people recognize and trust.",
+    ar: "أُحوّل معنى النشاط التجاري إلى هويات يتعرّف عليها الناس ويثقون بها.",
   },
   outline: { en: "identity.", ar: "الهوية." },
   sub: {
-    en: "Logo & visual identity designer with 12+ years across Arabic and Latin type, brand systems, and the street — where a mark has to survive the real world, not just a presentation board.",
-    ar: "مصمم شعارات وهوية بصرية بخبرة تتجاوز ١٢ عامًا في الخط العربي واللاتيني وأنظمة الهوية وفي الشارع — حيث يجب أن تصمد العلامة في العالم الحقيقي، لا على لوح العرض فقط.",
+    en: "Logo & visual identity designer with 12+ years across Arabic and Latin type, brand systems, and real-world applications — where a mark must survive the street, not just the screen.",
+    ar: "مصمم شعارات وهوية بصرية بخبرة تتجاوز ١٢ عامًا في الخط العربي واللاتيني وأنظمة الهوية والتطبيقات الواقعية — حيث يجب أن تصمد العلامة في الشارع، لا على الشاشة فقط.",
   },
 };
 
 export const stats: { value: string; label: Bi }[] = [
   { value: "12+", label: { en: "Years of practice", ar: "سنوات من الممارسة" } },
-  { value: "50+", label: { en: "Logos & identities", ar: "شعار وهوية" } },
-  { value: "95%", label: { en: "Client satisfaction", ar: "رضا العملاء" } },
+  { value: "50+", label: { en: "Logos & identities delivered", ar: "شعار وهوية تم تسليمها" } },
   { value: "AR·EN", label: { en: "Bilingual by design", ar: "ثنائي اللغة بالتصميم" } },
 ];
 
@@ -56,12 +55,12 @@ export const about = {
     ar: "مصمم بفهمٍ ميداني لكيفية تصرّف الهوية في العالم الحقيقي.",
   },
   p1: {
-    en: "I'm <strong>Muhamed Alaa</strong> — a Senior Graphic &amp; Brand Designer, Creative Director and Brand Strategist running BLACK-MAK® from New Valley, Egypt. For over a decade I've helped businesses translate who they are into marks that work at any size, in any language, on any surface.",
-    ar: "أنا <strong>محمد علاء</strong> — مصمم جرافيك وهوية بصرية أول، ومدير إبداعي، واستراتيجي علامات تجارية، أُدير BLACK-MAK® من الوادي الجديد بمصر. لأكثر من عقد، أساعد الأعمال على ترجمة هويتها إلى علاماتٍ تعمل بأي حجم، وبأي لغة، وعلى أي سطح.",
+    en: "I'm <strong>Muhamed Alaa</strong> — a Logo &amp; Visual Identity Designer, Creative Director and Brand Strategist running BLACK-MAK® from New Valley, Egypt. For over a decade I've helped businesses translate who they are into marks that work at any size, in any language, on any surface.",
+    ar: "أنا <strong>محمد علاء</strong> — مصمم شعارات وهوية بصرية، ومدير إبداعي، واستراتيجي علامات تجارية، أُدير BLACK-MAK® من الوادي الجديد بمصر. لأكثر من عقد، ساعدت الأعمال على ترجمة هويتها إلى علاماتٍ تعمل بأي حجم، وبأي لغة، وعلى أي سطح.",
   },
   p2: {
-    en: "The work spans Arabic calligraphy, Latin typography, full identity systems, applied print and outdoor advertising — now accelerated with an AI-augmented workflow. Every project starts with one question: what should this mark make people feel?",
-    ar: "يمتد العمل من الخط العربي إلى الطباعة اللاتينية وأنظمة الهوية الكاملة والمطبوعات واللوحات الخارجية — معزَّزًا الآن بسير عمل يعتمد على الذكاء الاصطناعي. كل مشروع يبدأ بسؤالٍ واحد: بماذا يجب أن تُشعر هذه العلامة الناس؟",
+    en: "The work spans Arabic calligraphy, Latin typography, full identity systems, applied print and outdoor advertising — supported by an AI-augmented creative workflow. Every project starts with one question: what should this mark make people feel?",
+    ar: "يمتد العمل من الخط العربي إلى الطباعة اللاتينية وأنظمة الهوية الكاملة والمطبوعات واللوحات الخارجية — بدعم من سير عمل إبداعي معزَّز بالذكاء الاصطناعي. كل مشروع يبدأ بسؤالٍ واحد: بماذا يجب أن تُشعر هذه العلامة الناس؟",
   },
   facts: {
     based: { en: "Based in", ar: "المقر" },
@@ -87,14 +86,14 @@ export const experience: Job[] = [
   {
     from: "2018",
     to: { en: "Present", ar: "الآن" },
-    role: { en: "Freelance Graphic & Logo Designer", ar: "مصمم جرافيك وشعارات مستقل" },
+    role: { en: "Logo & Visual Identity Designer", ar: "مصمم شعارات وهوية بصرية" },
     org: { en: "BLACK-MAK® · Self-Employed", ar: "BLACK-MAK® · عمل حر" },
     place: { en: "New Valley, Egypt", ar: "الوادي الجديد، مصر" },
     tag: { en: "Lead · Studio", ar: "قائد · استوديو" },
     bullets: [
       {
-        en: "Design brand identities and visual systems for clients across industries, blending 12+ years of craft with an AI-augmented workflow (ChatGPT, Claude, Gemini, DeepSeek, Leonardo AI, Manus).",
-        ar: "أُصمم هويات بصرية وأنظمة متكاملة لعملاء في قطاعات متنوعة، بمزجٍ بين خبرة تتجاوز ١٢ عامًا وسير عمل معزَّز بالذكاء الاصطناعي (ChatGPT وClaude وGemini وDeepSeek وLeonardo AI وManus).",
+        en: "Design brand identities and visual systems for clients across industries, blending 12+ years of craft with an AI-augmented creative workflow.",
+        ar: "أُصمم هويات بصرية وأنظمة متكاملة لعملاء في قطاعات متنوعة، بمزجٍ بين خبرة تتجاوز ١٢ عامًا وسير عمل إبداعي معزَّز بالذكاء الاصطناعي.",
       },
       {
         en: "Maintain a 95% client-satisfaction rate through iterative design, proactive communication and meticulous attention to detail.",
@@ -164,7 +163,7 @@ export const education: Edu[] = [
     to: "2017",
     degree: { en: "Diploma in Surveying Engineering", ar: "دبلوم هندسة المساحة" },
     org: { en: "Higher Institute of Surveying", ar: "المعهد العالي للمساحة" },
-    note: { en: "Graduation grade: 77%", ar: "تقدير التخرج: ٧٧٪" },
+    note: { en: "", ar: "" },
   },
   {
     from: "2011",
@@ -178,69 +177,54 @@ export const education: Edu[] = [
   },
 ];
 
-export type SkillGroup = { cat: Bi; items: { name: Bi; level: number }[] };
+export type SkillGroup = { cat: Bi; items: { name: Bi }[] };
 
 export const skills: SkillGroup[] = [
   {
     cat: { en: "Identity & Logo", ar: "الهوية والشعار" },
     items: [
-      { name: { en: "Logo Design", ar: "تصميم الشعار" }, level: 96 },
-      { name: { en: "Brand Identity Systems", ar: "أنظمة الهوية البصرية" }, level: 93 },
-      { name: { en: "Logotype / Wordmarks", ar: "الشعارات النصية" }, level: 90 },
-      { name: { en: "Brand Strategy", ar: "استراتيجية العلامة" }, level: 86 },
+      { name: { en: "Logo Design", ar: "تصميم الشعار" } },
+      { name: { en: "Brand Identity Systems", ar: "أنظمة الهوية البصرية" } },
+      { name: { en: "Logotype / Wordmarks", ar: "الشعارات النصية" } },
+      { name: { name: { en: "Brand Strategy", ar: "استراتيجية العلامة" } } as any },
     ],
   },
   {
     cat: { en: "Typography & Craft", ar: "الطباعة والحرفة" },
     items: [
-      { name: { en: "Latin Typography", ar: "الطباعة اللاتينية" }, level: 90 },
-      { name: { en: "Arabic Calligraphy", ar: "الخط العربي" }, level: 88 },
-      { name: { en: "Hand Lettering", ar: "الحروف اليدوية" }, level: 84 },
-    ],
-  },
-  {
-    cat: { en: "Tools & AI", ar: "الأدوات والذكاء الاصطناعي" },
-    items: [
-      { name: { en: "Adobe Illustrator", ar: "أدوبي إليستريتور" }, level: 96 },
-      { name: { en: "Adobe Photoshop", ar: "أدوبي فوتوشوب" }, level: 92 },
-      { name: { en: "AI-Augmented Workflow", ar: "سير عمل معزّز بالذكاء" }, level: 90 },
+      { name: { en: "Latin Typography", ar: "الطباعة اللاتينية" } },
+      { name: { en: "Arabic Calligraphy", ar: "الخط العربي" } },
+      { name: { en: "Hand Lettering", ar: "الحروف اليدوية" } },
     ],
   },
   {
     cat: { en: "Applied Design", ar: "التصميم التطبيقي" },
     items: [
-      { name: { en: "Outdoor & Signage", ar: "اللوحات الخارجية" }, level: 88 },
-      { name: { en: "Print & Large Format", ar: "المطبوعات والمقاسات الكبيرة" }, level: 85 },
-      { name: { en: "Campaign Visuals", ar: "بصريات الحملات" }, level: 83 },
+      { name: { en: "Outdoor & Signage", ar: "اللوحات الخارجية" } },
+      { name: { en: "Print & Large Format", ar: "المطبوعات والمقاسات الكبيرة" } },
+      { name: { en: "Campaign Visuals", ar: "بصريات الحملات" } },
     ],
   },
   {
-    cat: { en: "Process", ar: "المنهجية" },
+    cat: { en: "Process & Delivery", ar: "المنهجية والتسليم" },
     items: [
-      { name: { en: "Research & Discovery", ar: "البحث والاكتشاف" }, level: 90 },
-      { name: { en: "Concept & Sketching", ar: "الفكرة والرسم الأولي" }, level: 92 },
-      { name: { en: "File & Guideline Delivery", ar: "تسليم الملفات والدليل" }, level: 88 },
+      { name: { en: "Research & Discovery", ar: "البحث والاكتشاف" } },
+      { name: { en: "Concept & Sketching", ar: "الفكرة والرسم الأولي" } },
+      { name: { en: "File & Guideline Delivery", ar: "تسليم الملفات والدليل" } },
     ],
   },
   {
-    cat: { en: "Leadership & Web", ar: "القيادة والويب" },
+    cat: { en: "Leadership", ar: "القيادة" },
     items: [
-      { name: { en: "Team Leadership & Operations", ar: "قيادة الفرق والعمليات" }, level: 88 },
-      { name: { en: "Client Relationship (AR/EN)", ar: "علاقات العملاء (عربي/إنجليزي)" }, level: 94 },
-      { name: { en: "Web Fundamentals (HTML/CSS/JS/React)", ar: "أساسيات الويب" }, level: 72 },
+      { name: { en: "Team Leadership & Operations", ar: "قيادة الفرق والعمليات" } },
+      { name: { en: "Client Relationship (AR/EN)", ar: "علاقات العملاء (عربي/إنجليزي)" } },
     ],
   },
 ];
 
-// AI stack — shown as a quiet marquee ribbon (a distinctly modern signal).
+// AI stack — used as a quiet signal, not a headline feature.
 export const aiStack = [
-  "ChatGPT",
-  "Claude",
-  "Gemini",
-  "DeepSeek",
-  "Kimi",
-  "Leonardo AI",
-  "Manus",
+  "AI-Augmented Workflow",
 ];
 
 export type Cert = {
