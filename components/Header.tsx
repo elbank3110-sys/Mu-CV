@@ -59,7 +59,7 @@ export default function Header() {
           aria-label="BLACK-MAK home"
         >
           <span className="grid h-7 w-7 place-items-center" aria-hidden="true">
-            <svg viewBox="356.27 0.48 115.96 123.06" fill="currentColor" className="h-full w-full text-ink">
+            <svg viewBox="356.27 0.48 115.96 123.06" fill="none" stroke="currentColor" strokeWidth="3" className="h-full w-full text-ink">
               <polygon points="472.23 .48 472.23 36.39 466.12 36.39 466.12 15.21 424.59 56.75 424.59 123.54 418.48 123.54 418.48 54.22 472.23 .48" />
               <polygon points="472.23 29.01 472.23 37.64 471.33 38.54 467.01 34.23 472.23 29.01" />
               <path d="M466.12,35.12l-7.57,7.57-2.7,2.69-17.71,17.71v60.44h34.09V46.1l-6.11,6.11v65.22h-21.88v-51.8l15.93-15.93,5.95-5.95,5.2-5.21.9-.9v-8.62l-6.11,6.11Z" />
@@ -87,6 +87,14 @@ export default function Header() {
               {t(l.k)}
             </a>
           ))}
+          <a
+            href="https://black-mak-v4.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mono text-[0.68rem] uppercase tracking-[0.16em] text-muted transition-colors hover:text-ink"
+          >
+            {t("nav.studio")}
+          </a>
           <a href="#contact" className="btn btn-light">
             <span>{t("nav.contact")}</span>
             <span aria-hidden="true">↗</span>
@@ -123,6 +131,15 @@ export default function Header() {
               {t(l.k)}
             </a>
           ))}
+          <a
+            href="https://black-mak-v4.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setOpen(false)}
+            className="text-2xl font-bold"
+          >
+            {t("nav.studio")}
+          </a>
           <a href="#contact" onClick={() => setOpen(false)} className="btn btn-light w-full">
             {t("nav.contact")}
           </a>

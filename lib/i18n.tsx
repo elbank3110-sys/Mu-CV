@@ -16,6 +16,7 @@ const UI = {
   "nav.skills": { en: "Skills", ar: "المهارات" },
   "nav.credentials": { en: "Credentials", ar: "الشهادات" },
   "nav.contact": { en: "Contact", ar: "تواصل" },
+  "nav.studio": { en: "Studio", ar: "الاستوديو" },
   "lang.toggle": { en: "العربية", ar: "EN" },
   "theme.toggle": { en: "Toggle theme", ar: "تبديل السمة" },
 

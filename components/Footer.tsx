@@ -10,8 +10,8 @@ export default function Footer() {
       <div className="container">
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row">
           <div>
-            <a href="#top" className="text-xl font-black tracking-wider">
-              BLACK<span className="text-faint">—</span>MAK
+            <a href="#top" className="text-xl font-black tracking-wider text-ink">
+              BLACK-MAK
             </a>
             <p className="mt-4 max-w-[42ch] text-[0.85rem] text-muted">{t("footer.tagline")}</p>
           </div>
