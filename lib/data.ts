@@ -17,8 +17,8 @@ export const profile = {
     ar: "مصمم شعارات وهوية بصرية",
   },
   titles: {
-    en: ["Creative Director", "Brand Strategist"],
-    ar: ["مدير إبداعي", "استراتيجي علامات تجارية"],
+    en: ["Creative Director", "Brand Strategist", "Arabic & Latin Typographer"],
+    ar: ["مدير إبداعي", "استراتيجي علامات تجارية", "خطّاط عربي ولاتيني"],
   },
   location: { en: "New Valley, Egypt", ar: "الوادي الجديد، مصر" },
   experienceYears: { en: "12+ years of experience", ar: "أكثر من ١٢ عامًا من الخبرة" },
@@ -32,20 +32,20 @@ export const profile = {
 export const hero = {
   kicker: { en: "BLACK-MAK® / CURRICULUM VITÆ — 2026", ar: "BLACK-MAK® / السيرة الذاتية — ٢٠٢٦" },
   lead: {
-    en: "I turn business meaning into a",
-    ar: "أُحوّل معنى النشاط التجاري إلى",
+    en: "I turn what a business stands for into an identity people recognize, remember, and",
+    ar: "أُحوّل ما يقف وراءه النشاط التجاري إلى هوية",
   },
-  outline: { en: "brand identity.", ar: "هوية يثق بها العالم." },
+  outline: { en: "trust.", ar: "يتعرّف بها الناس ويتذكرونها ويثقون بها." },
   sub: {
-    en: "Logo & visual identity designer with 12+ years across Arabic and Latin type, brand systems, and real-world applications — where a mark must survive the street, not just the screen.",
-    ar: "مصمم شعارات وهوية بصرية بخبرة تتجاوز ١٢ عامًا في الخط العربي واللاتيني وأنظمة الهوية والتطبيقات الواقعية — حيث يجب أن تصمد العلامة في الشارع، لا على الشاشة فقط.",
+    en: "Specialized in identity systems, typography, Arabic & Latin lettering, and real-world brand applications.",
+    ar: "متخصص في أنظمة الهوية والتايبوغرافي والحرف العربي واللاتيني وتطبيقات العلامة الواقعية.",
   },
 };
 
 export const stats: { value: string; label: Bi }[] = [
-  { value: "12+", label: { en: "Years of practice", ar: "سنوات من الممارسة" } },
-  { value: "50+", label: { en: "Logos & identities delivered", ar: "شعار وهوية تم تسليمها" } },
-  { value: "AR·EN", label: { en: "Bilingual by design", ar: "ثنائي اللغة بالتصميم" } },
+  { value: "12+", label: { en: "Years of Practice", ar: "سنوات من الممارسة" } },
+  { value: "50+", label: { en: "Logos & Identities Delivered", ar: "شعار وهوية تم تسليمها" } },
+  { value: "AR·EN", label: { en: "Bilingual by Design", ar: "ثنائي اللغة بالتصميم" } },
 ];
 
 export const about = {
@@ -96,8 +96,8 @@ export const experience: Job[] = [
         ar: "أُصمم هويات بصرية وأنظمة متكاملة لعملاء في قطاعات متنوعة، بمزجٍ بين خبرة تتجاوز ١٢ عامًا وسير عمل إبداعي معزَّز بالذكاء الاصطناعي.",
       },
       {
-        en: "Maintain a 95% client-satisfaction rate through iterative design, proactive communication and meticulous attention to detail.",
-        ar: "أحافظ على معدل رضا عملاء ٩٥٪ عبر التصميم التكراري، والتواصل الاستباقي، والاهتمام الدقيق بالتفاصيل.",
+        en: "Built on long-term client relationships, repeat work, and referrals.",
+        ar: "مبني على علاقات عملاء طويلة الأمد وعمل متكرر وإحالات.",
       },
       {
         en: "Delivered 50+ distinctive logos, from startups to established enterprises.",
@@ -181,32 +181,20 @@ export type SkillGroup = { cat: Bi; items: { name: Bi }[] };
 
 export const skills: SkillGroup[] = [
   {
-    cat: { en: "Identity & Logo", ar: "الهوية والشعار" },
+    cat: { en: "Core Expertise", ar: "الخبرة الأساسية" },
     items: [
       { name: { en: "Logo Design", ar: "تصميم الشعار" } },
-      { name: { en: "Brand Identity Systems", ar: "أنظمة الهوية البصرية" } },
-      { name: { en: "Logotype / Wordmarks", ar: "الشعارات النصية" } },
-      { name: { name: { en: "Brand Strategy", ar: "استراتيجية العلامة" } } as any },
+      { name: { en: "Visual Identity Systems", ar: "أنظمة الهوية البصرية" } },
+      { name: { en: "Typography & Wordmarks", ar: "التايبوغرافي والكلمات الشعارية" } },
+      { name: { en: "Arabic Lettering", ar: "الحرف العربي" } },
+      { name: { en: "Latin Typography", ar: "التايبوغرافي اللاتيني" } },
+      { name: { en: "Brand Art Direction", ar: "الإدارة الفنية للعلامة" } },
+      { name: { en: "Signage & Real-world Applications", ar: "اللوحات والتطبيقات الواقعية" } },
+      { name: { en: "Digital Brand Experiences", ar: "التجارب الرقمية للعلامة" } },
     ],
   },
   {
-    cat: { en: "Typography & Craft", ar: "الطباعة والحرفة" },
-    items: [
-      { name: { en: "Latin Typography", ar: "الطباعة اللاتينية" } },
-      { name: { en: "Arabic Calligraphy", ar: "الخط العربي" } },
-      { name: { en: "Hand Lettering", ar: "الحروف اليدوية" } },
-    ],
-  },
-  {
-    cat: { en: "Applied Design", ar: "التصميم التطبيقي" },
-    items: [
-      { name: { en: "Outdoor & Signage", ar: "اللوحات الخارجية" } },
-      { name: { en: "Print & Large Format", ar: "المطبوعات والمقاسات الكبيرة" } },
-      { name: { en: "Campaign Visuals", ar: "بصريات الحملات" } },
-    ],
-  },
-  {
-    cat: { en: "Process & Delivery", ar: "المنهجية والتسليم" },
+    cat: { en: "Workflow", ar: "أسلوب العمل" },
     items: [
       { name: { en: "Research & Discovery", ar: "البحث والاكتشاف" } },
       { name: { en: "Concept & Sketching", ar: "الفكرة والرسم الأولي" } },
@@ -222,9 +210,9 @@ export const skills: SkillGroup[] = [
   },
 ];
 
-// AI stack — used as a quiet signal, not a headline feature.
+// AI workflow — one quiet signal, tools are not listed.
 export const aiStack = [
-  "AI-Augmented Workflow",
+  "AI-Augmented Creative Workflow",
 ];
 
 export type Cert = {
@@ -312,7 +300,11 @@ export const seal = {
     en: "You've read the person. Now meet the work.",
     ar: "قرأتَ الشخص. الآن قابِل العمل.",
   },
-  center: { en: "ENTER THE STUDIO", ar: "ادخل الاستوديو" },
+  sub: {
+    en: "Selected work, process, services, and project information.",
+    ar: "أعمال مختارة، والعملية، والخدمات، ومعلومات المشاريع.",
+  },
+  center: { en: "EXPLORE BLACK-MAK STUDIO", ar: "استكشف استوديو BLACK-MAK" },
   ring: "LOGO & VISUAL IDENTITY · MUHAMED ALAA · BLACK-MAK® · EST. 2014 · ",
   domain: "black-mak-v4.vercel.app",
 };

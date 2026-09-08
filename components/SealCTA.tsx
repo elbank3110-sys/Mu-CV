@@ -110,9 +110,7 @@ export default function SealCTA() {
 
         <Reveal delay={0.24}>
           <p className="mono mt-14 max-w-[42ch] text-[0.72rem] uppercase leading-relaxed tracking-[0.12em] text-faint">
-            {lang === "ar"
-              ? "هذه بياناتي. اضغط الختم لترى شغلي كاملًا في الاستوديو."
-              : "This is my data. Press the seal to see the full body of work in the studio."}
+            {pick(seal.sub)}
           </p>
         </Reveal>
       </div>
