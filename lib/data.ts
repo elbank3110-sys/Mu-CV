@@ -35,7 +35,7 @@ export const hero = {
     en: "I turn what a business stands for into an identity people recognize, remember, and",
     ar: "أُحوّل ما يقف وراءه النشاط التجاري إلى هوية",
   },
-  outline: { en: "trust.", ar: "يتعرّف بها الناس ويتذكرونها ويثقون بها." },
+  outline: { en: "trust.", ar: "يتعرّف بها الناس، ويتذكّرونها، ويثقون بها." },
   sub: {
     en: "Specialized in identity systems, typography, Arabic & Latin lettering, and real-world brand applications.",
     ar: "متخصص في أنظمة الهوية والتايبوغرافي والحرف العربي واللاتيني وتطبيقات العلامة الواقعية.",
