@@ -35,7 +35,7 @@ function TiltCard({ group, index }: { group: SkillGroup; index: number }) {
         <div style={{ transform: "translateZ(28px)" }}>
           <div className="mb-6 flex items-baseline justify-between">
             <h3 className="text-lg font-bold">{pick(group.cat)}</h3>
-            <span className="mono text-[0.6rem] text-faint">
+            <span className="mono skill-tick text-[0.6rem] text-faint">
               {String(index + 1).padStart(2, "0")}
             </span>
           </div>

@@ -54,7 +54,7 @@ export default function Contact() {
                 <div
                   className={`flex flex-wrap items-center justify-between gap-4 px-6 py-5 ${
                     i !== rows.length - 1 ? "border-b border-line" : ""
-                  }`}
+                  } ${copied === r.key ? "copy-flash" : ""}`}
                 >
                   <div className="min-w-0">
                     <div className="eyebrow">{r.label}</div>

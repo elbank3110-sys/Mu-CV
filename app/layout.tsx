@@ -5,6 +5,7 @@ import { I18nProvider } from "@/lib/i18n";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Effects from "@/components/Effects";
+import MagicLayer from "@/components/MagicLayer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import { profile, STUDIO_URL } from "@/lib/data";
 
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Muhamed Alaa — CV | BLACK-MAK® Logo & Visual Identity Designer",
   description:
-    "The online CV of Muhamed Alaa (BLACK-MAK®): Senior Graphic & Brand Designer with 12+ years across Arabic & Latin typography, logo design and identity systems. Bilingual EN/AR.",
+    "The online CV of Muhamed Alaa (BLACK-MAK®): Logo & Visual Identity Designer with 12+ years across Arabic & Latin typography, logo design and identity systems. Bilingual EN/AR.",
   keywords: [
     "Muhamed Alaa",
     "BLACK-MAK",
@@ -61,7 +62,7 @@ const jsonLd = {
   alternateName: "BLACK-MAK",
   url: SITE_URL,
   image: `${SITE_URL}/portrait.webp`,
-  jobTitle: "Senior Graphic & Brand Designer",
+  jobTitle: "Logo & Visual Identity Designer",
   email: `mailto:${profile.email}`,
   telephone: profile.phoneRaw,
   address: { "@type": "PostalAddress", addressLocality: "New Valley", addressCountry: "EG" },
@@ -111,6 +112,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <I18nProvider>
           <Effects />
+          <MagicLayer />
           <Header />
           <main className="pt-[76px]">{children}</main>
           <Footer />

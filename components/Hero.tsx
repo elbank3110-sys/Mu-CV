@@ -22,7 +22,7 @@ export default function Hero() {
           {/* text column */}
           <div className="flex-1">
             <Reveal>
-              <span className="eyebrow">{pick(hero.kicker)}</span>
+              <span className="eyebrow kicker-shimmer" data-words>{pick(hero.kicker)}</span>
             </Reveal>
 
             <Reveal delay={0.06}>
@@ -49,7 +49,7 @@ export default function Hero() {
 
             <Reveal delay={0.3}>
               <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
-                <a href="#contact" className="btn btn-light">
+                <a href="#contact" data-magnetic className="btn btn-light">
                   <span>{lang === "ar" ? "تواصل معي" : "Get in touch"}</span>
                   <span aria-hidden="true">↗</span>
                 </a>
