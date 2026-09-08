@@ -59,8 +59,8 @@ export const about = {
     ar: "أنا <strong>محمد علاء</strong> — مصمم شعارات وهوية بصرية، ومدير إبداعي، واستراتيجي علامات تجارية، أُدير BLACK-MAK® من الوادي الجديد بمصر. لأكثر من عقد، ساعدت الأعمال على ترجمة هويتها إلى علاماتٍ تعمل بأي حجم، وبأي لغة، وعلى أي سطح.",
   },
   p2: {
-    en: "The work spans Arabic calligraphy, Latin typography, full identity systems, applied print and outdoor advertising — supported by an AI-augmented creative workflow. Every project starts with one question: what should this mark make people feel?",
-    ar: "يمتد العمل من الخط العربي إلى الطباعة اللاتينية وأنظمة الهوية الكاملة والمطبوعات واللوحات الخارجية — بدعم من سير عمل إبداعي معزَّز بالذكاء الاصطناعي. كل مشروع يبدأ بسؤالٍ واحد: بماذا يجب أن تُشعر هذه العلامة الناس؟",
+    en: "The work spans Arabic calligraphy, Latin typography, full identity systems, applied print and outdoor advertising — supported by an AI-augmented creative workflow. AI is integrated into my process for exploration, iteration, and speed — while strategy, art direction, typography, and final design decisions remain human-led. Every project starts with one question: what should this mark make people feel?",
+    ar: "يمتد العمل من الخط العربي إلى الطباعة اللاتينية وأنظمة الهوية الكاملة والمطبوعات واللوحات الخارجية — بدعم من سير عمل إبداعي معزَّز بالذكاء الاصطناعي. الذكاء الاصطناعي مدمج في عملي للاستكشاف والتكرار والسرعة — بينما تبقى الاستراتيجية والإدارة الفنية والتايبوغرافي وقرارات التصميم النهائية بقيادة بشرية. كل مشروع يبدأ بسؤالٍ واحد: بماذا يجب أن تُشعر هذه العلامة الناس؟",
   },
   facts: {
     based: { en: "Based in", ar: "المقر" },
