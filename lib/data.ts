@@ -32,10 +32,10 @@ export const profile = {
 export const hero = {
   kicker: { en: "BLACK-MAK® / CURRICULUM VITÆ — 2026", ar: "BLACK-MAK® / السيرة الذاتية — ٢٠٢٦" },
   lead: {
-    en: "I turn business meaning into identities people recognize and trust.",
-    ar: "أُحوّل معنى النشاط التجاري إلى هويات يتعرّف عليها الناس ويثقون بها.",
+    en: "I turn business meaning into a brand",
+    ar: "أُحوّل معنى النشاط التجاري إلى هوية",
   },
-  outline: { en: "identity.", ar: "الهوية." },
+  outline: { en: "identity.", ar: "يتعرّف بها العالم." },
   sub: {
     en: "Logo & visual identity designer with 12+ years across Arabic and Latin type, brand systems, and real-world applications — where a mark must survive the street, not just the screen.",
     ar: "مصمم شعارات وهوية بصرية بخبرة تتجاوز ١٢ عامًا في الخط العربي واللاتيني وأنظمة الهوية والتطبيقات الواقعية — حيث يجب أن تصمد العلامة في الشارع، لا على الشاشة فقط.",

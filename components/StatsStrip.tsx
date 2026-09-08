@@ -1,12 +1,11 @@
 "use client";
 
 import { useI18n } from "@/lib/i18n";
-import { stats, aiStack } from "@/lib/data";
+import { stats } from "@/lib/data";
 import Reveal from "./Reveal";
 
 export default function StatsStrip() {
-  const { pick, lang } = useI18n();
-  const ribbon = [...aiStack, ...aiStack];
+  const { pick } = useI18n();
 
   return (
     <section aria-label="Facts" className="border-b border-line bg-surface">
@@ -19,18 +18,6 @@ export default function StatsStrip() {
             </div>
           </Reveal>
         ))}
-      </div>
-
-      {/* AI stack — a quiet marquee, the modern signal */}
-      <div className="marquee-row overflow-hidden border-t border-line py-3">
-        <div className="flex w-max animate-marquee items-center gap-10 whitespace-nowrap will-change-transform">
-          {ribbon.map((tool, i) => (
-            <span key={i} className="mono text-[0.7rem] uppercase tracking-[0.2em] text-faint">
-              {lang === "ar" ? "معزّز بـ" : "Augmented with"} {tool}
-              <span className="ms-10 text-seal">◆</span>
-            </span>
-          ))}
-        </div>
       </div>
     </section>
   );
