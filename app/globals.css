@@ -391,40 +391,53 @@ html[lang="ar"] .stroke-text {
 .skill-tick { transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
 .group:hover .skill-tick { transform: translateX(4px); }
 
-/* custom cursor ring (fine pointers) */
-@media (pointer: fine) {
-  .cursor-dot,
-  .cursor-ring {
-    position: fixed;
-    top: 0; left: 0;
-    pointer-events: none;
-    z-index: 9998;
-    border-radius: 50%;
-  }
-  .cursor-dot {
-    width: 5px; height: 5px;
-    background: var(--ink);
-    transform: translate(-50%, -50%);
-  }
-  .cursor-ring {
-    width: 34px; height: 34px;
-    border: 1px solid rgba(245, 245, 241, 0.35);
-    transform: translate(-50%, -50%);
-    transition: width 0.25s ease, height 0.25s ease, border-color 0.25s ease;
-  }
-  .cursor-ring.is-active {
-    width: 56px; height: 56px;
-    border-color: var(--ink);
-  }
+/* seal disc: living halo on hover */
+.seal-halo {
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.8s ease;
+}
+.seal-cta:hover .seal-halo {
+  transform: scale(1.35);
+  opacity: 1;
+}
+
+/* experience timeline: spine draws with scroll */
+.tspine {
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.tspine.is-in { transform: scaleY(1); }
+
+/* section headings share the studio's rise character */
+.display { transform-origin: left bottom; }
+html[dir="rtl"] .display { transform-origin: right bottom; }
+
+/* portrait frame: cinematic settle on load */
+.portrait-settle {
+  animation: portrait-settle 1.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes portrait-settle {
+  from { transform: scale(1.04) translateY(8px); opacity: 0.4; }
+  to { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+/* cert cards: quiet lift with hairline glow */
+.cert-lift { transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.4s ease, box-shadow 0.5s ease; }
+.cert-lift:hover {
+  transform: translateY(-4px);
+  border-color: var(--line-strong);
+  box-shadow: 0 16px 40px -20px rgba(0, 0, 0, 0.5);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .word-rise > span,
   .kicker-shimmer,
   .magnetic,
-  .cursor-ring,
-  .cursor-dot,
-  .copy-flash {
+  .copy-flash,
+  .seal-halo,
+  .tspine,
+  .portrait-settle,
+  .cert-lift {
     animation: none !important;
     transition: none !important;
   }

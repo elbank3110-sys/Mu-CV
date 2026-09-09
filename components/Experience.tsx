@@ -20,7 +20,7 @@ export default function Experience() {
         {/* timeline */}
         <div className="relative mt-14">
           <span
-            className="absolute bottom-2 top-2 w-px bg-line ltr:left-[7px] rtl:right-[7px] md:ltr:left-[calc(200px+7px)] md:rtl:right-[calc(200px+7px)]"
+            className="tspine absolute bottom-2 top-2 w-px bg-line ltr:left-[7px] rtl:right-[7px] md:ltr:left-[calc(200px+7px)] md:rtl:right-[calc(200px+7px)]"
             aria-hidden="true"
           />
           <div className="flex flex-col gap-12">

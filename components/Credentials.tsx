@@ -96,7 +96,7 @@ export default function Credentials() {
             <Reveal key={i} delay={i * 0.08}>
               <button
                 onClick={() => setOpenIdx(i)}
-                className="group block h-full w-full border border-line bg-bg p-5 text-start transition-all duration-300 hover:border-ink hover:shadow-[0_8px_30px_rgba(0,0,0,0.35)]"
+                className="cert-lift group block h-full w-full border border-line bg-bg p-5 text-start transition-all duration-300 hover:border-ink hover:shadow-[0_8px_30px_rgba(0,0,0,0.35)]"
               >
                 <div className="relative mb-5 aspect-[4/3] overflow-hidden border border-line">
                   <Image

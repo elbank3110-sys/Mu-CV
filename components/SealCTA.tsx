@@ -101,7 +101,7 @@ export default function SealCTA() {
                 </span>
               </span>
               <span
-                className="absolute inset-0 rounded-full bg-seal/5 opacity-0 blur-xl transition-opacity duration-700 group-hover:opacity-100"
+                className="seal-halo absolute inset-0 rounded-full bg-seal/5 opacity-0 blur-xl transition-opacity duration-700 group-hover:opacity-100"
                 aria-hidden="true"
               />
             </motion.a>

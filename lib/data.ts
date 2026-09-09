@@ -17,8 +17,8 @@ export const profile = {
     ar: "مصمم شعارات وهوية بصرية",
   },
   titles: {
-    en: ["Creative Director", "Brand Strategist", "Arabic & Latin Typographer"],
-    ar: ["مدير إبداعي", "استراتيجي علامات تجارية", "خطّاط عربي ولاتيني"],
+    en: ["Creative Director", "Brand Strategist", "Arabic & Latin Calligrapher"],
+    ar: ["مدير إبداعي", "استراتيجي علامات تجارية", "كاليجرافير عربي ولاتيني"],
   },
   location: { en: "New Valley, Egypt", ar: "الوادي الجديد، مصر" },
   experienceYears: { en: "12+ years of experience", ar: "أكثر من ١٢ عامًا من الخبرة" },
@@ -37,8 +37,8 @@ export const hero = {
   },
   outline: { en: "trust.", ar: "يتعرّف بها الناس، ويتذكّرونها، ويثقون بها." },
   sub: {
-    en: "Specialized in identity systems, typography, Arabic & Latin lettering, and real-world brand applications.",
-    ar: "متخصص في أنظمة الهوية والتايبوغرافي والحرف العربي واللاتيني وتطبيقات العلامة الواقعية.",
+    en: "Specialized in identity systems, calligraphy, Arabic & Latin freestyle lettering, and real-world brand applications.",
+    ar: "متخصص في أنظمة الهوية والكاليجرافي والحروف العربية واللاتينية الحرّة وتطبيقات العلامة الواقعية.",
   },
 };
 
@@ -59,8 +59,8 @@ export const about = {
     ar: "أنا <strong>محمد علاء</strong> — مصمم شعارات وهوية بصرية، ومدير إبداعي، واستراتيجي علامات تجارية، أُدير BLACK-MAK® من الوادي الجديد بمصر. لأكثر من عقد، ساعدت الأعمال على ترجمة هويتها إلى علاماتٍ تعمل بأي حجم، وبأي لغة، وعلى أي سطح.",
   },
   p2: {
-    en: "The work spans Arabic calligraphy, Latin typography, full identity systems, applied print and outdoor advertising — supported by an AI-augmented creative workflow. AI is integrated into my process for exploration, iteration, and speed — while strategy, art direction, typography, and final design decisions remain human-led. Every project starts with one question: what should this mark make people feel?",
-    ar: "يمتد العمل من الخط العربي إلى الطباعة اللاتينية وأنظمة الهوية الكاملة والمطبوعات واللوحات الخارجية — بدعم من سير عمل إبداعي معزَّز بالذكاء الاصطناعي. الذكاء الاصطناعي مدمج في عملي للاستكشاف والتكرار والسرعة — بينما تبقى الاستراتيجية والإدارة الفنية والتايبوغرافي وقرارات التصميم النهائية بقيادة بشرية. كل مشروع يبدأ بسؤالٍ واحد: بماذا يجب أن تُشعر هذه العلامة الناس؟",
+    en: "The work spans Arabic freestyle calligraphy, Latin lettering, full identity systems, applied print and outdoor advertising — supported by an AI-augmented creative workflow. AI is integrated into my process for exploration, iteration, and speed — while strategy, art direction, calligraphy, and final design decisions remain human-led. Every project starts with one question: what should this mark make people feel?",
+    ar: "يمتد العمل من الكاليجرافي العربي الحر إلى الحروف اللاتينية وأنظمة الهوية الكاملة والمطبوعات واللوحات الخارجية — بدعم من سير عمل إبداعي معزَّز بالذكاء الاصطناعي. الذكاء الاصطناعي مدمج في عملي للاستكشاف والتكرار والسرعة — بينما تبقى الاستراتيجية والإدارة الفنية والكاليجرافي وقرارات التصميم النهائية بقيادة بشرية. كل مشروع يبدأ بسؤالٍ واحد: بماذا يجب أن تُشعر هذه العلامة الناس؟",
   },
   facts: {
     based: { en: "Based in", ar: "المقر" },
@@ -185,9 +185,9 @@ export const skills: SkillGroup[] = [
     items: [
       { name: { en: "Logo Design", ar: "تصميم الشعار" } },
       { name: { en: "Visual Identity Systems", ar: "أنظمة الهوية البصرية" } },
-      { name: { en: "Typography & Wordmarks", ar: "التايبوغرافي والكلمات الشعارية" } },
-      { name: { en: "Arabic Lettering", ar: "الحرف العربي" } },
-      { name: { en: "Latin Typography", ar: "التايبوغرافي اللاتيني" } },
+      { name: { en: "Calligraphy & Wordmarks", ar: "الكاليجرافي والكلمات الشعارية" } },
+      { name: { en: "Arabic Freestyle Calligraphy", ar: "الكاليجرافي العربي الحر" } },
+      { name: { en: "Latin Freestyle Calligraphy", ar: "الكاليجرافي اللاتيني الحر" } },
       { name: { en: "Brand Art Direction", ar: "الإدارة الفنية للعلامة" } },
       { name: { en: "Signage & Real-world Applications", ar: "اللوحات والتطبيقات الواقعية" } },
       { name: { en: "Digital Brand Experiences", ar: "التجارب الرقمية للعلامة" } },
@@ -261,8 +261,8 @@ export const languages = [
     level: { en: "Native", ar: "اللغة الأم" },
     percent: 100,
     note: {
-      en: "Native speaker. Arabic calligraphy, lettering and typographic design across regional dialects.",
-      ar: "لغة أم. الخط العربي والحروف والتصميم الطباعي عبر اللهجات المختلفة.",
+      en: "Native speaker. Arabic freestyle calligraphy and lettering design across regional dialects.",
+      ar: "لغة أم. الكاليجرافي العربي الحر والحروف والتصميم الخطي عبر اللهجات المختلفة.",
     },
   },
   {
@@ -277,7 +277,7 @@ export const languages = [
 ];
 
 export const interests: Bi[] = [
-  { en: "Typography & Calligraphy", ar: "الطباعة والخط" },
+  { en: "Freestyle Calligraphy", ar: "الكاليجرافي الحر" },
   { en: "Photography", ar: "التصوير" },
   { en: "Traveling", ar: "السفر" },
   { en: "Creative Writing", ar: "الكتابة الإبداعية" },

@@ -65,7 +65,7 @@ export default function Hero() {
             <motion.div
               whileHover={{ rotate: -1.5, scale: 1.015 }}
               transition={{ type: "spring", stiffness: 260, damping: 20 }}
-              className="group relative aspect-[3/4] border border-line bg-surface p-2"
+              className="portrait-settle group relative aspect-[3/4] border border-line bg-surface p-2"
             >
               <div className="relative h-full w-full overflow-hidden">
                 <Image
