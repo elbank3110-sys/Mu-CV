@@ -58,7 +58,7 @@ const UI = {
     ar: "استوديو متميز للشعارات والهوية البصرية — محمد علاء.",
   },
   "footer.rights": { en: "© 2026 BLACK-MAK®", ar: "© ٢٠٢٦ BLACK-MAK®" },
-  "footer.end": { en: "Designed with intent. New Valley, Egypt.", ar: "مصمَّم بقصد. الوادي الجديد، مصر." },
+  "footer.end": { en: "Designed with intent. Egypt · Working Worldwide.", ar: "مصمَّم بقصد. مصر · أعمل حول العالم." },
 
   "wa.msg": {
     en: "Hello BLACK-MAK, I saw your CV and I'd like to start a project. Here's a short brief: ",

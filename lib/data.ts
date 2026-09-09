@@ -20,7 +20,7 @@ export const profile = {
     en: ["Creative Director", "Brand Strategist", "Arabic & Latin Calligrapher"],
     ar: ["مدير إبداعي", "استراتيجي علامات تجارية", "كاليجرافير عربي ولاتيني"],
   },
-  location: { en: "New Valley, Egypt", ar: "الوادي الجديد، مصر" },
+  location: { en: "Egypt · Working Worldwide", ar: "مصر · أعمل حول العالم" },
   experienceYears: { en: "12+ years of experience", ar: "أكثر من ١٢ عامًا من الخبرة" },
   email: "muhemedalaa2699@gmail.com",
   phone: "+20 100 246 2821",
@@ -37,8 +37,8 @@ export const hero = {
   },
   outline: { en: "trust.", ar: "يتعرّف بها الناس، ويتذكّرونها، ويثقون بها." },
   sub: {
-    en: "Specialized in identity systems, calligraphy, Arabic & Latin freestyle lettering, and real-world brand applications.",
-    ar: "متخصص في أنظمة الهوية والكاليجرافي والحروف العربية واللاتينية الحرّة وتطبيقات العلامة الواقعية.",
+    en: "Specialized in identity systems, freestyle calligraphy, and real-world brand applications.",
+    ar: "متخصص في أنظمة الهوية والكاليجرافي الحر وتطبيقات العلامة الواقعية.",
   },
 };
 
@@ -59,8 +59,8 @@ export const about = {
     ar: "أنا <strong>محمد علاء</strong> — مصمم شعارات وهوية بصرية، ومدير إبداعي، واستراتيجي علامات تجارية، أُدير BLACK-MAK® من الوادي الجديد بمصر. لأكثر من عقد، ساعدت الأعمال على ترجمة هويتها إلى علاماتٍ تعمل بأي حجم، وبأي لغة، وعلى أي سطح.",
   },
   p2: {
-    en: "The work spans Arabic freestyle calligraphy, Latin lettering, full identity systems, applied print and outdoor advertising — supported by an AI-augmented creative workflow. AI is integrated into my process for exploration, iteration, and speed — while strategy, art direction, calligraphy, and final design decisions remain human-led. Every project starts with one question: what should this mark make people feel?",
-    ar: "يمتد العمل من الكاليجرافي العربي الحر إلى الحروف اللاتينية وأنظمة الهوية الكاملة والمطبوعات واللوحات الخارجية — بدعم من سير عمل إبداعي معزَّز بالذكاء الاصطناعي. الذكاء الاصطناعي مدمج في عملي للاستكشاف والتكرار والسرعة — بينما تبقى الاستراتيجية والإدارة الفنية والكاليجرافي وقرارات التصميم النهائية بقيادة بشرية. كل مشروع يبدأ بسؤالٍ واحد: بماذا يجب أن تُشعر هذه العلامة الناس؟",
+    en: "The work spans freestyle calligraphy, full identity systems, applied print and outdoor advertising. An AI-augmented workflow speeds exploration — while strategy, art direction, calligraphy, and final design decisions remain human-led. Every project starts with one question: what should this mark make people feel?",
+    ar: "يمتد العمل من الكاليجرافي الحر إلى أنظمة الهوية الكاملة والمطبوعات واللوحات الخارجية. سير عمل معزَّز بالذكاء الاصطناعي يسرّع الاستكشاف — بينما تبقى الاستراتيجية والإدارة الفنية والكاليجرافي وقرارات التصميم النهائية بقيادة بشرية. كل مشروع يبدأ بسؤالٍ واحد: بماذا يجب أن تُشعر هذه العلامة الناس؟",
   },
   facts: {
     based: { en: "Based in", ar: "المقر" },
@@ -68,7 +68,7 @@ export const about = {
     langs: { en: "Languages", ar: "اللغات" },
     status: { en: "Status", ar: "الحالة" },
     langsValue: { en: "Arabic · English", ar: "العربية · الإنجليزية" },
-    available: { en: "● Available for work", ar: "● متاح للعمل" },
+    available: { en: "● Accepting Selected Projects", ar: "● أستقبل مشاريع مختارة" },
   },
 };
 
@@ -87,7 +87,7 @@ export const experience: Job[] = [
     from: "2018",
     to: { en: "Present", ar: "الآن" },
     role: { en: "Logo & Visual Identity Designer", ar: "مصمم شعارات وهوية بصرية" },
-    org: { en: "BLACK-MAK® · Self-Employed", ar: "BLACK-MAK® · عمل حر" },
+    org: { en: "BLACK-MAK® · Independent Design Practice", ar: "BLACK-MAK® · ممارسة تصميم مستقلة" },
     place: { en: "New Valley, Egypt", ar: "الوادي الجديد، مصر" },
     tag: { en: "Lead · Studio", ar: "قائد · استوديو" },
     bullets: [
@@ -100,8 +100,8 @@ export const experience: Job[] = [
         ar: "مبني على علاقات عملاء طويلة الأمد وعمل متكرر وإحالات.",
       },
       {
-        en: "Delivered 50+ distinctive logos, from startups to established enterprises.",
-        ar: "سلّمت أكثر من ٥٠ شعارًا مميزًا، من الشركات الناشئة إلى المؤسسات الراسخة.",
+        en: "Delivered 50+ logos and identity systems — see selected work in the studio.",
+        ar: "سلّمت أكثر من ٥٠ شعارًا ونظام هوية — انظر الأعمال المختارة في الاستوديو.",
       },
       {
         en: "Manage full project lifecycles — from consultation and concept to delivery and brand-guideline documentation.",
@@ -186,8 +186,8 @@ export const skills: SkillGroup[] = [
       { name: { en: "Logo Design", ar: "تصميم الشعار" } },
       { name: { en: "Visual Identity Systems", ar: "أنظمة الهوية البصرية" } },
       { name: { en: "Calligraphy & Wordmarks", ar: "الكاليجرافي والكلمات الشعارية" } },
-      { name: { en: "Arabic Freestyle Calligraphy", ar: "الكاليجرافي العربي الحر" } },
-      { name: { en: "Latin Freestyle Calligraphy", ar: "الكاليجرافي اللاتيني الحر" } },
+      { name: { en: "Arabic Calligraphy", ar: "الكاليجرافي العربي" } },
+      { name: { en: "Latin Calligraphy", ar: "الكاليجرافي اللاتيني" } },
       { name: { en: "Brand Art Direction", ar: "الإدارة الفنية للعلامة" } },
       { name: { en: "Signage & Real-world Applications", ar: "اللوحات والتطبيقات الواقعية" } },
       { name: { en: "Digital Brand Experiences", ar: "التجارب الرقمية للعلامة" } },
@@ -261,8 +261,8 @@ export const languages = [
     level: { en: "Native", ar: "اللغة الأم" },
     percent: 100,
     note: {
-      en: "Native speaker. Arabic freestyle calligraphy and lettering design across regional dialects.",
-      ar: "لغة أم. الكاليجرافي العربي الحر والحروف والتصميم الخطي عبر اللهجات المختلفة.",
+      en: "Native speaker. Deep command of Arabic calligraphy and letterform design across regional dialects.",
+      ar: "لغة أم. إتقان عميق للكاليجرافي العربي وتصميم الحروف عبر اللهجات المختلفة.",
     },
   },
   {

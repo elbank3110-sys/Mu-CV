@@ -26,6 +26,27 @@ export default function Experience() {
           <div className="flex flex-col gap-12">
             {experience.map((job, i) => (
               <Reveal key={i} delay={i * 0.08}>
+                {pick(job.tag).toLowerCase().includes("leadership") ? (
+                  <article className="print-avoid-break grid grid-cols-1 gap-4 md:grid-cols-[200px_1fr] md:gap-12">
+                    <div className="mono flex items-start gap-4 text-sm text-muted md:flex-col md:gap-2">
+                      <span className="order-2 md:order-1">
+                        {job.from} — {pick(job.to)}
+                      </span>
+                      <span className="order-1 mt-[5px] inline-block h-[15px] w-[15px] shrink-0 rounded-full border-2 border-seal bg-bg md:order-2 md:hidden" />
+                      <span className="order-3 inline-block border border-line-strong px-2 py-[2px] text-[0.6rem] uppercase tracking-widest text-faint">
+                        {pick(job.tag)}
+                      </span>
+                    </div>
+                    <div className="relative ltr:pl-8 rtl:pr-8 md:ltr:pl-12 md:rtl:pr-12">
+                      <h3 className="text-[1.05rem] font-bold leading-tight tracking-tight">
+                        {pick(job.role)} — <span className="text-[0.85rem] font-normal text-muted">{pick(job.org)}</span>
+                      </h3>
+                      <p className="mt-2 max-w-[64ch] text-sm leading-relaxed text-muted">
+                        {pick(job.bullets[0])}
+                      </p>
+                    </div>
+                  </article>
+                ) : (
                 <article className="print-avoid-break grid grid-cols-1 gap-4 md:grid-cols-[200px_1fr] md:gap-12">
                   <div className="mono flex items-start gap-4 text-sm text-muted md:flex-col md:gap-2">
                     <span className="order-2 md:order-1">
@@ -62,6 +83,7 @@ export default function Experience() {
                     </ul>
                   </div>
                 </article>
+                )}
               </Reveal>
             ))}
           </div>

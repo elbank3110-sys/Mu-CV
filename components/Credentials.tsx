@@ -155,18 +155,11 @@ export default function Credentials() {
           </div>
 
           <div>
-            <span className="eyebrow mb-8 block">{t("section.interests")}</span>
+            <span className="eyebrow mb-4 block">{t("section.interests")}</span>
             <Reveal>
-              <ul className="flex flex-wrap gap-3">
-                {interests.map((it, i) => (
-                  <li
-                    key={i}
-                    className="border border-line px-4 py-2 text-sm text-muted transition-colors hover:border-ink hover:text-ink"
-                  >
-                    {pick(it)}
-                  </li>
-                ))}
-              </ul>
+              <p className="mono max-w-[46ch] text-[0.72rem] leading-relaxed tracking-[0.06em] text-faint">
+                {interests.map((it) => pick(it)).join(" · ")}
+              </p>
             </Reveal>
           </div>
         </div>
