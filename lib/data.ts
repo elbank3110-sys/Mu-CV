@@ -55,8 +55,8 @@ export const about = {
     ar: "مصمم بفهمٍ ميداني لكيفية تصرّف الهوية في العالم الحقيقي.",
   },
   p1: {
-    en: "I'm <strong>Muhamed Alaa</strong> — a Logo &amp; Visual Identity Designer, Creative Director and Brand Strategist running BLACK-MAK® from New Valley, Egypt. For over a decade I've helped businesses translate who they are into marks that work at any size, in any language, on any surface.",
-    ar: "أنا <strong>محمد علاء</strong> — مصمم شعارات وهوية بصرية، ومدير إبداعي، واستراتيجي علامات تجارية، أُدير BLACK-MAK® من الوادي الجديد بمصر. لأكثر من عقد، ساعدت الأعمال على ترجمة هويتها إلى علاماتٍ تعمل بأي حجم، وبأي لغة، وعلى أي سطح.",
+    en: "I'm <strong>Muhamed Alaa</strong> — a Logo &amp; Visual Identity Designer, Creative Director and Brand Strategist running BLACK-MAK® from Egypt, working worldwide. For over a decade I've helped businesses translate who they are into marks that work at any size, in any language, on any surface.",
+    ar: "أنا <strong>محمد علاء</strong> — مصمم شعارات وهوية بصرية، ومدير إبداعي، واستراتيجي علامات تجارية، أُدير BLACK-MAK® من مصر وأعمل حول العالم. لأكثر من عقد، ساعدت الأعمال على ترجمة هويتها إلى علاماتٍ تعمل بأي حجم، وبأي لغة، وعلى أي سطح.",
   },
   p2: {
     en: "The work spans freestyle calligraphy, full identity systems, applied print and outdoor advertising. An AI-augmented workflow speeds exploration — while strategy, art direction, calligraphy, and final design decisions remain human-led. Every project starts with one question: what should this mark make people feel?",
@@ -88,7 +88,7 @@ export const experience: Job[] = [
     to: { en: "Present", ar: "الآن" },
     role: { en: "Logo & Visual Identity Designer", ar: "مصمم شعارات وهوية بصرية" },
     org: { en: "BLACK-MAK® · Independent Design Practice", ar: "BLACK-MAK® · ممارسة تصميم مستقلة" },
-    place: { en: "New Valley, Egypt", ar: "الوادي الجديد، مصر" },
+    place: { en: "Egypt · Working Worldwide", ar: "مصر · أعمل حول العالم" },
     tag: { en: "Lead · Studio", ar: "قائد · استوديو" },
     bullets: [
       {
